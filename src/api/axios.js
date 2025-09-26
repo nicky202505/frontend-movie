@@ -10,11 +10,11 @@ const api = axios.create({
 
 //Flask API
 const chatApi = axios.create({
-  baseURL: 'http://backend-movie-wqh3.onrender.com', 
+  baseURL: 'https://backend-movie-2-yvda.onrender.com', 
   headers: {
     'Content-Type': 'application/json'
   }
 })
 export { chatApi };
-export default api; 
+export default api;  
 
